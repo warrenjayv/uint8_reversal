@@ -3,9 +3,9 @@ bit reversal for unsigned byte without a lookup table
 
 _uint8_t_ bit reverse ( _uint8_t_ ) 
  
- • **i** read bit of _uint8_t_ starting on the right 
+ • **i** read bit of _uint8_t_ starting on the right (blue)
  
- • **j** read bit of _uint8_t_ starting on the left
+ • **j** read bit of _uint8_t_ starting on the left (red)
 
  • compare **blue** and **red** 
  
