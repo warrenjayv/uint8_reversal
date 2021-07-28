@@ -24,8 +24,7 @@ uint8_t reverse ( uint8_t in ) {
     for (i = 0; i < len; i++ ) {
         blue = (in >> i) & 1;
         red = (in >> j) & 1;
-        
-        printf("blue: [%d] red: [%d]\n", blue, red);
+
         /* if bits mismatch, toggle */
         if (blue!=red) {
             if (j > i) {
