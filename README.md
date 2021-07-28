@@ -16,3 +16,18 @@ uint8_t bit reverse ( uint8_t )
  • return _uint8_t_
 
 ![image](https://user-images.githubusercontent.com/40836157/127370754-7204681b-330a-4885-96af-083d7e0adff2.png)
+
+example:
+
+```c
+int main () {
+      uint8_t sample = 0xF1;
+      
+      printf("sample %#x\n", sample);
+      sample = reverse ( sample ); 
+      printf("sample %#x\n", sample);
+      
+      /* 0xF1    ---> 0x8F     */
+      /* 1111001 ---> 10001111 */
+}
+```
