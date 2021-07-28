@@ -1,5 +1,5 @@
 
-/* don't need any of these headers, but endian/swap operators are provided here if anyone wants to take a look */
+/* don't need some of these headers, but endian/swap operators are provided here if anyone wants to take a look */
 #include <stdio.h>
 #include <math.h>
 #include <stdint.h>
