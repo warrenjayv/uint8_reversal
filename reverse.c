@@ -1,4 +1,5 @@
 
+/* don't need any of these headers, but endian/swap operators are provided here if anyone wants to take a look */
 #include <stdio.h>
 #include <math.h>
 #include <stdint.h>
@@ -6,10 +7,8 @@
 #include <arpa/inet.h>
 #include <endian.h>
 
+/* UINT8_T */
 uint8_t reverse ( uint8_t in ) {
-    
-    /* desired output */
-    uint8_t output; 
     
     /* length of bits to iterate */
     int len = 8;
@@ -38,7 +37,7 @@ uint8_t reverse ( uint8_t in ) {
     }//for(){}
     
     printf("output: [%d]\n", in);
+    
     return in;
-}
-
+}//reverse()
 
