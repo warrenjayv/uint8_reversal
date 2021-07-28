@@ -34,9 +34,7 @@ uint8_t reverse ( uint8_t in ) {
         }//if()
         j--;
     }//for(){}
-    
-    printf("output: [%d]\n", in);
-    
+  
     return in;
 }//reverse()
 
