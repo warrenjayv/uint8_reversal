@@ -14,3 +14,5 @@ uint8_t bit reverse ( uint8_t )
  • toggle bit only if **j** is greater than **i**
  
  • return _uint8_t_
+
+![image](https://user-images.githubusercontent.com/40836157/127370754-7204681b-330a-4885-96af-083d7e0adff2.png)
